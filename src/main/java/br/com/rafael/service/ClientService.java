@@ -10,4 +10,8 @@ public interface ClientService {
 
     long create(Client client);
 
+    Client getById(long id);
+
+    void delete(long id);
+
 }
